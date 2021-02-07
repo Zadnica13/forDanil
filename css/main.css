@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+
+.temp__room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 100px 50px 50px;
+}
+
+p {
+    font-size: 20px;
+}
+input {
+    width: 70px;
+    height: 40px;
+}
+
+.temp__out {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 100px 100px 50px;
+}
+
+.hours__from {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px 50px 50px;
+
+}
+
+.time {
+    width: 70px;
+    height: 40px;
+    margin-left: 90px;
+}
+
+.hours__before {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 100px 50px 50px;
+    align-items: center;
+}
+
+button {
+    width: 70%;
+    padding: 10px 0;
+    background-color: #35C0CD;
+    border: 2px solid #1D7373;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #35D2AB;
+    transition: .2s all linear;
+
+}
+
+.title__calm {
+    margin-top: 60px;
+}
